@@ -18,6 +18,6 @@ auto_provides;
 auto_install;
 
 resources repository =>
-    'git://github.com/ketheridge/mx-alwayscoerce.git';
+    'git://github.com/karenetheridge/mx-alwayscoerce.git';
 
 WriteAll;
