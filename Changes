@@ -1,5 +1,9 @@
 Revision history for MooseX-AlwaysCoerce
 
+{{NEXT}
+    - fixed class attribute and parameterized role TODO tests to work again
+      with the latest MooseX::Role::Parameterized (Karen Etheridge)
+
 0.12  2010-10-08 12:14:54 PDT
     - ...and again.
 
