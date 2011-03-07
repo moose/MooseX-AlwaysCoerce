@@ -6,7 +6,7 @@ author   'Rafael Kitover <rkitover@cpan.org>';
 license  'perl';
 
 test_requires 'Test::More' => '0.94';
-test_requires 'Test::Exception';
+test_requires 'Test::Fatal';
 test_requires 'Test::NoWarnings';
 test_requires 'Test::Requires';
 
