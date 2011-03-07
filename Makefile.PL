@@ -18,6 +18,6 @@ auto_provides;
 auto_install;
 
 resources repository =>
-    'git://github.com/karenetheridge/mx-alwayscoerce.git';
+    'http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=gitmo/MooseX-AlwaysCoerce.git';
 
 WriteAll;
