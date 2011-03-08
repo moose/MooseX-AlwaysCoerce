@@ -18,7 +18,7 @@ MooseX::AlwaysCoerce - Automatically enable coercions for Moose attributes
 
 =head1 VERSION
 
-Version 0.12
+Version 0.14
 
 =cut
 
