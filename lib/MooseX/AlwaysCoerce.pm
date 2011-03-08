@@ -95,8 +95,9 @@ my (undef, undef, $init_meta) = Moose::Exporter->build_import_methods(
     },
 
     role_metaroles => {
-        # applied_attribute should be available soon, for now roles are borked
-        # applied_attribute   => ['MooseX::AlwaysCoerce::Role::Meta::Attribute'],
+        (Moose->VERSION >= 1.9900
+            ? (applied_attribute => ['MooseX::AlwaysCoerce::Role::Meta::Attribute'])
+            : ()),
         role                => ['MooseX::AlwaysCoerce::Role::Meta::Class'],
     }
 );
