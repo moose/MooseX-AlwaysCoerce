@@ -71,9 +71,6 @@ Use C<< coerce => 0 >> to disable a coercion explicitly.
     use Moose::Role;
     use Moose::Util::TypeConstraints;
 
-    # MooseX::ClassAttribute is not always present in the consuming class
-    sub add_class_attribute { }
-
     around add_class_attribute => sub {
         my $next = shift;
         my $self = shift;
@@ -85,7 +82,9 @@ Use C<< coerce => 0 >> to disable a coercion explicitly.
         }
 
         $self->$next($what, %opts);
-    };
+    }
+    # MooseX::ClassAttribute is not always present in the consuming class/role
+    if __PACKAGE__->meta->has_method('add_class_attribute');
 }
 
 my (undef, undef, $init_meta) = Moose::Exporter->build_import_methods(
