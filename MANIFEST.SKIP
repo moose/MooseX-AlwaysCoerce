@@ -64,5 +64,4 @@
 ^benchmarks
 ^\._.*$
 \.shipit
-^MooseX-.*
 todo.txt

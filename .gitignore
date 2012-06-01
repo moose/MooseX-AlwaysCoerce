@@ -19,4 +19,4 @@ test-mydeps-*
 nytprof*
 /inc/
 *.sw*
-MooseX-
+/MooseX-*
