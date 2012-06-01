@@ -1,20 +1,62 @@
-^_build
-^Build$
-^blib
+### from: !perldoc -m ExtUtils::MANIFEST.SKIP (6.62)
+# Avoid version control files.
+\bRCS\b
+\bCVS\b
+\bSCCS\b
+,v$
+\B\.svn\b
+\B\.git\b
+\B\.gitignore\b
+\b_darcs\b
+\B\.cvsignore$
+
+# Avoid VMS specific MakeMaker generated files
+\bDescrip.MMS$
+\bDESCRIP.MMS$
+\bdescrip.mms$
+
+# Avoid Makemaker generated and utility files.
+\bMANIFEST\.bak
+\bMakefile$
+\bblib/
+\bMakeMaker-\d
+\bpm_to_blib\.ts$
+\bpm_to_blib$
+\bblibdirs\.ts$         # 6.18 through 6.25 generated this
+
+# Avoid Module::Build generated and utility files.
+\bBuild$
+\b_build/
+\bBuild.bat$
+\bBuild.COM$
+\bBUILD.COM$
+\bbuild.com$
+
+# Avoid temp and backup files.
 ~$
-\.bak$
-CVS
-\.svn
-\.DS_Store
-cover_db
-\..*\.sw.?$
-^Makefile$
-^pm_to_blib$
-^MakeMaker-\d
-^blibdirs$
 \.old$
-^#.*#$
-^\.#
+\#$
+\b\.#
+\.bak$
+\.tmp$
+\.#
+\.rej$
+
+# Avoid OS-specific files/dirs
+# Mac OSX metadata
+\B\.DS_Store
+# Mac OSX SMB mount metadata files
+\B\._
+
+# Avoid Devel::Cover and Devel::CoverX::Covered files.
+\bcover_db\b
+\bcovered\b
+
+# Avoid MYMETA files
+^MYMETA\.
+
+### custom entries
+\..*\.sw.?$
 ^TODO$
 ^PLANS$
 ^NOTES/
@@ -23,5 +65,4 @@ cover_db
 ^\._.*$
 \.shipit
 ^MooseX-.*
-\.git.*
 todo.txt

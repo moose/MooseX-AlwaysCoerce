@@ -1,4 +1,5 @@
 /META.yml
+/MYMETA.*
 /Makefile
 /Makefile.old
 /MANIFEST
@@ -6,9 +7,16 @@
 /blib/
 /inc/
 /pm_to_blib
-/PLANS/
-*.sw*
-todo.txt
-.*
+/.build
 !.gitignore
+/PLANS/
+*.bs
+/xs/*.c
+*.o
+cover_db
+*.gc??
+test-mydeps-*
+nytprof*
+/inc/
+*.sw*
 MooseX-
