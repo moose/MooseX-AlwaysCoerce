@@ -1,4 +1,6 @@
-Revision history for MooseX-AlwaysCoerce
+Revision history for {{$dist->name}}
+
+{{$NEXT}}
 
 0.16 2011-03-16
     - bump minimum required Package::Stash and namespace::autoclean versions
