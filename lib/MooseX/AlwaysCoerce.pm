@@ -71,9 +71,6 @@ Use C<< coerce => 0 >> to disable a coercion explicitly.
     use Moose::Role;
     use Moose::Util::TypeConstraints;
 
-    # MooseX::ClassAttribute is not always present in the consuming class
-    sub add_class_attribute { }
-
     around add_class_attribute => sub {
         my $next = shift;
         my $self = shift;
