@@ -1,12 +1,3 @@
-/META.yml
-/MYMETA.*
-/Makefile
-/Makefile.old
-/MANIFEST
-/MANIFEST.bak
-/blib/
-/inc/
-/pm_to_blib
 /.build
 !.gitignore
 /PLANS/
@@ -17,6 +8,5 @@ cover_db
 *.gc??
 test-mydeps-*
 nytprof*
-/inc/
 *.sw*
 /MooseX-*
