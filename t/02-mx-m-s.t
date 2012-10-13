@@ -26,7 +26,7 @@ use Test::More;
 }
 
 use Test::Fatal;
-use Test::NoWarnings;
+use Test::NoWarnings 1.04 ':early';
 plan tests => 4;
 
 ok( (my $instance = MyClass->new), 'instance' );

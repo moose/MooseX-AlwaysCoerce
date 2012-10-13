@@ -10,7 +10,7 @@ use Test::Requires {
 };
 
 plan tests => 12;
-use Test::NoWarnings;
+use Test::NoWarnings 1.04 ':early';
 
 eval <<'EOF';
     package Role;
