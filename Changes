@@ -2,6 +2,7 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
     - added missing prerequisite declaration
+    - added lots more metadata; kwalitee should be improved
 
 0.17      2012-06-01 17:52:39 UTC+0000
     - conversion to Dist::Zilla
