@@ -2,6 +2,7 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
     - fixed reference to writable git repository
+    - pod coverage tests added
 
 0.18      2012-10-13 16:57:07 PDT-0700 (Karen Etheridge)
     - added missing prerequisite declaration

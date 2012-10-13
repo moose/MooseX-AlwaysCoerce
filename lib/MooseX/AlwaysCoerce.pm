@@ -112,6 +112,13 @@ sub init_meta {
     goto $init_meta;
 }
 
+1;
+# vim:et sts=4 sw=4 tw=0:
+__END__
+
+=for Pod::Coverage
+    init_meta
+
 =head1 AUTHOR
 
 Rafael Kitover, C<< <rkitover at cpan.org> >>
@@ -165,6 +172,3 @@ This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
 =cut
-
-1; # End of MooseX::AlwaysCoerce
-# vim:et sts=4 sw=4 tw=0:
