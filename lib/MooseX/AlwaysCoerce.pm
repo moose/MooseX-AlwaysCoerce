@@ -15,6 +15,8 @@ Moose::Exporter->setup_import_methods;
 
 =pod
 
+=for stopwords coercions
+
 =head1 SYNOPSIS
 
     package MyClass;
@@ -30,7 +32,7 @@ Moose::Exporter->setup_import_methods;
 
 =head1 DESCRIPTION
 
-Have you ever spent an hour or more trying to figure out "WTF, why did my
+Have you ever spent an hour or more trying to figure out "Hey, why did my
 coercion not run?" only to find out that you forgot C<< coerce => 1 >> ?
 
 Just load this module in your L<Moose> class and C<< coerce => 1 >> will be
@@ -126,6 +128,8 @@ You can find more information at:
 
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=MooseX-AlwaysCoerce>
 
+=for stopwords AnnoCPAN
+
 =item * AnnoCPAN: Annotated CPAN documentation
 
 L<http://annocpan.org/dist/MooseX-AlwaysCoerce>
@@ -143,6 +147,8 @@ L<http://search.cpan.org/dist/MooseX-AlwaysCoerce/>
 =head1 ACKNOWLEDGEMENTS
 
 My own stupidity, for inspiring me to write this module.
+
+=for stopwords Rolsky
 
 Dave Rolsky, for telling me how to do it the L<Moose> way.
 
