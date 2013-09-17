@@ -1,4 +1,5 @@
 package MooseX::AlwaysCoerce;
+# ABSTRACT: Automatically enable coercions for Moose attributes
 
 use strict;
 use warnings;
@@ -13,10 +14,6 @@ use Carp;
 Moose::Exporter->setup_import_methods;
 
 =pod
-
-=head1 NAME
-
-MooseX::AlwaysCoerce - Automatically enable coercions for Moose attributes
 
 =head1 SYNOPSIS
 
@@ -113,15 +110,6 @@ __END__
 =for Pod::Coverage
     init_meta
 
-=head1 AUTHOR
-
-Rafael Kitover, C<< <rkitover at cpan.org> >>
-
-=head1 CONTRIBUTORS
-
-Schwern: Michael G. Schwern <mschwern@cpan.org>
-Ether: Karen Etheridge <ether@cpan.org>
-
 =head1 BUGS
 
 Please report any bugs or feature requests to C<bug-moosex-alwayscoerce at rt.cpan.org>, or through
@@ -157,12 +145,5 @@ L<http://search.cpan.org/dist/MooseX-AlwaysCoerce/>
 My own stupidity, for inspiring me to write this module.
 
 Dave Rolsky, for telling me how to do it the L<Moose> way.
-
-=head1 COPYRIGHT & LICENSE
-
-Copyright (c) 2009-2010 Rafael Kitover
-
-This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
 
 =cut
