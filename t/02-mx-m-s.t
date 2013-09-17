@@ -25,8 +25,7 @@ use Test::More;
 }
 
 use Test::Fatal;
-use Test::NoWarnings 1.04 ':early';
-plan tests => 4;
+use if $ENV{AUTHOR_TESTING}, 'Test::Warnings';
 
 ok( (my $instance = MyClass->new), 'instance' );
 
@@ -38,3 +37,5 @@ TODO: {
     }, undef, 'method called with coerced and uncoerced parameters' )
         or todo_skip 'is() test never ran', 1;
 }
+
+done_testing;
