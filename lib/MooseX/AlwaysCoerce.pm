@@ -12,17 +12,11 @@ use Carp;
 
 Moose::Exporter->setup_import_methods;
 
+=pod
+
 =head1 NAME
 
 MooseX::AlwaysCoerce - Automatically enable coercions for Moose attributes
-
-=head1 VERSION
-
-Version 0.16
-
-=cut
-
-our $VERSION = '0.16';
 
 =head1 SYNOPSIS
 
