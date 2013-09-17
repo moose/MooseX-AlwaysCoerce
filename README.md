@@ -4,7 +4,7 @@ MooseX::AlwaysCoerce - Automatically enable coercions for Moose attributes
 
 # VERSION
 
-version 0.19
+version 0.20
 
 # SYNOPSIS
 
