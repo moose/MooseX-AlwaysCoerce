@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+    - fixed bad test plan
 
 0.19      2013-09-17 01:29:18Z (Karen Etheridge)
     - warnings tests bypassed during installation
