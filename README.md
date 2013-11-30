@@ -4,7 +4,7 @@ MooseX::AlwaysCoerce - Automatically enable coercions for Moose attributes
 
 # VERSION
 
-version 0.20
+version 0.21
 
 # SYNOPSIS
 
@@ -24,7 +24,7 @@ version 0.20
 Have you ever spent an hour or more trying to figure out "Hey, why did my
 coercion not run?" only to find out that you forgot `coerce => 1` ?
 
-Just load this module in your [Moose](http://search.cpan.org/perldoc?Moose) class and `coerce => 1` will be
+Just load this module in your [Moose](https://metacpan.org/pod/Moose) class and `coerce => 1` will be
 enabled for every attribute and class attribute automatically.
 
 Use `coerce => 0` to disable a coercion explicitly.
@@ -59,7 +59,7 @@ You can find more information at:
 
 My own stupidity, for inspiring me to write this module.
 
-Dave Rolsky, for telling me how to do it the [Moose](http://search.cpan.org/perldoc?Moose) way.
+Dave Rolsky, for telling me how to do it the [Moose](https://metacpan.org/pod/Moose) way.
 
 # AUTHOR
 
