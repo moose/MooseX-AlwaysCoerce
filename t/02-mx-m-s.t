@@ -7,9 +7,7 @@ use if $ENV{AUTHOR_TESTING}, 'Test::Warnings';
 {
     package MyClass;
     use Moose;
-    use Test::Requires {
-        'MooseX::Method::Signatures' => 0.01,
-    };
+    use Test::Requires 'MooseX::Method::Signatures';
     use MooseX::AlwaysCoerce;
     use Moose::Util::TypeConstraints;
 
