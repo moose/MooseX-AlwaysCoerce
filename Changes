@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+    - re-release to fix compile test
 
 0.20      2013-09-17 01:32:52Z (Karen Etheridge)
     - fixed bad test plan
