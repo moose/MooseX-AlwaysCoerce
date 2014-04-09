@@ -6,7 +6,7 @@ use warnings;
 
 use namespace::autoclean 0.12;
 use Moose ();
-use MooseX::ClassAttribute 0.24 ();
+use MooseX::ClassAttribute 0.27 ();
 use Moose::Exporter;
 use Moose::Util::MetaRole;
 use Carp;
