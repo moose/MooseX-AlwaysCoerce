@@ -1,6 +1,8 @@
 package MooseX::AlwaysCoerce;
 # ABSTRACT: Automatically enable coercions for Moose attributes
 
+our $VERSION = '0.22';
+
 use strict;
 use warnings;
 
