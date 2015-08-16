@@ -44,7 +44,8 @@ Use C<< coerce => 0 >> to disable a coercion explicitly.
 =cut
 
 {
-    package MooseX::AlwaysCoerce::Role::Meta::Attribute;
+    package # hide from PAUSE
+        MooseX::AlwaysCoerce::Role::Meta::Attribute;
     use namespace::autoclean;
     use Moose::Role;
 
@@ -60,7 +61,8 @@ Use C<< coerce => 0 >> to disable a coercion explicitly.
         return 0;
     };
 
-    package MooseX::AlwaysCoerce::Role::Meta::Class;
+    package # hide from PAUSE
+        MooseX::AlwaysCoerce::Role::Meta::Class;
     use namespace::autoclean;
     use Moose::Role;
     use Moose::Util::TypeConstraints ();
