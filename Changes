@@ -1,6 +1,7 @@
 Revision history for MooseX-AlwaysCoerce
 
 {{$NEXT}}
+    - update some distribution tooling
 
 0.21      2013-11-30 18:13:01Z
     - re-release to fix compile test
