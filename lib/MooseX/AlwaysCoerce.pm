@@ -7,11 +7,9 @@ use strict;
 use warnings;
 
 use namespace::autoclean 0.12;
-use Moose ();
 use MooseX::ClassAttribute 0.24 ();
 use Moose::Exporter;
 use Moose::Util::MetaRole;
-use Carp;
 
 Moose::Exporter->setup_import_methods;
 
