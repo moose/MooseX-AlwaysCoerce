@@ -1,4 +1,6 @@
 /.ackrc
 /.build/
-!.gitignore
-/MooseX-AlwaysCoerce-*
+!/.gitignore
+/.latest
+/MooseX-AlwaysCoerce-*/
+/MooseX-AlwaysCoerce-*.tar.gz
