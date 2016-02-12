@@ -112,6 +112,8 @@ sub init_meta {
 1;
 __END__
 
+=pod
+
 =for Pod::Coverage
     init_meta
 
