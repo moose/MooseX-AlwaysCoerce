@@ -1,4 +1,5 @@
 package MooseX::AlwaysCoerce;
+# vim: set ts=8 sts=4 sw=4 tw=115 et :
 # ABSTRACT: Automatically enable coercions for Moose attributes
 # KEYWORDS: Moose extension type constraint coerce coercion
 
@@ -109,7 +110,6 @@ sub init_meta {
 }
 
 1;
-# vim:et sts=4 sw=4 tw=0:
 __END__
 
 =for Pod::Coverage
