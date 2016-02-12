@@ -115,38 +115,6 @@ __END__
 =for Pod::Coverage
     init_meta
 
-=head1 BUGS
-
-Please report any bugs or feature requests to C<bug-moosex-alwayscoerce at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=MooseX-AlwaysCoerce>.  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
-
-=head1 SUPPORT
-
-You can find more information at:
-
-=over 4
-
-=item * RT: CPAN's request tracker
-
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=MooseX-AlwaysCoerce>
-
-=for stopwords AnnoCPAN
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/MooseX-AlwaysCoerce>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/MooseX-AlwaysCoerce>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/MooseX-AlwaysCoerce/>
-
-=back
-
 =head1 ACKNOWLEDGEMENTS
 
 My own stupidity, for inspiring me to write this module.
