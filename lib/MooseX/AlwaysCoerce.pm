@@ -3,7 +3,7 @@ package MooseX::AlwaysCoerce;
 # ABSTRACT: Automatically enable coercions for Moose attributes
 # KEYWORDS: Moose extension type constraint coerce coercion
 
-our $VERSION = '0.23';
+our $VERSION = '0.24';
 
 use strict;
 use warnings;
