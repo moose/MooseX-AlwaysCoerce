@@ -1,6 +1,7 @@
 Revision history for MooseX-AlwaysCoerce
 
 {{$NEXT}}
+    - update some distribution tooling
 
 0.22      2015-08-16 03:04:21Z
     - update some distribution tooling
