@@ -5,7 +5,7 @@ use Test::More 0.88;
 use if $ENV{AUTHOR_TESTING}, 'Test::Warnings';
 use Test::Fatal;
 
-use Test::Requires {
+use Test::Needs {
     'MooseX::Role::Parameterized' => 0.25,
 };
 
