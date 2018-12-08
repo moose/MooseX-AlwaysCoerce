@@ -8,6 +8,7 @@ use if $ENV{AUTHOR_TESTING}, 'Test::Warnings';
     package MyClass;
     use Moose;
     use Test::Needs 'MooseX::Method::Signatures';
+    BEGIN { MooseX::Method::Signatures->import }
     use MooseX::AlwaysCoerce;
     use Moose::Util::TypeConstraints;
 
